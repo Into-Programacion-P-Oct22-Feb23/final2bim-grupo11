@@ -39,25 +39,32 @@ public class impresionFinal {
 
             if (opcion == 1) {
                 mensaje = obtenerFunciones.crearFacebook();
+                contador = contador + 1;
                 System.out.println(mensaje);
             } else if (opcion == 2) {
+                contador = contador + 1;
                 obtenerProcedimiento.crearTwitter();
             } else if (opcion == 3) {
+                contador = contador + 1;
                 mensaje = obtenerFunciones.crearWhatsapp();
                 System.out.println(mensaje);
             } else if (opcion == 4) {
+                contador = contador + 1;
                 obtenerProcedimiento.crearTelegram();
             } else if (opcion == 5) {
+                contador = contador + 1;
                 mensaje = obtenerFunciones.crearSignal();
                 System.out.println(mensaje);
             } else if (opcion == 6) {
+                contador = contador + 1;
                 obtenerProcedimiento.crearInstagram();
             } else if (opcion == 7) {
+                contador = contador + 1;
                 mensaje = obtenerFunciones.crearFlickr();
                 System.out.println(mensaje);
             } else {
                 System.out.println("Error, esa opción no es valida.");
-                contador = 0;
+                contador = contador + 0;
             }
 
             System.out.println("Ingrese 1 para salir, de lo contrario 2.");
